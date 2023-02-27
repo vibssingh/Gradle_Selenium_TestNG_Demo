@@ -28,6 +28,9 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
+        
+    - uses: browser-actions/setup-chrome@latest
+    - run: chrome --version     
 
     - name: Build with Gradle
       run: gradle clean test
