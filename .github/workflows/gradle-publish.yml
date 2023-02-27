@@ -33,4 +33,5 @@ jobs:
     - run: chrome --version     
 
     - name: Build with Gradle
+      if: success() || failure()
       run: gradle clean test
