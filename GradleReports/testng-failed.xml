@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Gradle - Selenium with TestNG Tests(failed)" verbose="0">
+    <classes>
+      <class name="org.example.tests.LoginTests">
+        <methods>
+          <include name="missingUsername"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.example.tests.LoginTests -->
+    </classes>
+  </test> <!-- Gradle - Selenium with TestNG Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
