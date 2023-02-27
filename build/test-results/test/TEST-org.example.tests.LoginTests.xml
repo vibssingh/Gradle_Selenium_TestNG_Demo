@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.tests.LoginTests" tests="3" skipped="0" failures="1" errors="0" timestamp="2023-02-27T22:39:32" hostname="DUBSINGVI04-WXL" time="16.07">
+<testsuite name="org.example.tests.LoginTests" tests="3" skipped="0" failures="1" errors="0" timestamp="2023-02-27T23:14:10" hostname="DUBSINGVI04-WXL" time="11.97">
   <properties/>
-  <testcase name="invalidCredentials" classname="org.example.tests.LoginTests" time="2.308"/>
-  <testcase name="gotoHomePage" classname="org.example.tests.LoginTests" time="1.827"/>
-  <testcase name="missingUsername" classname="org.example.tests.LoginTests" time="0.785">
+  <testcase name="invalidCredentials" classname="org.example.tests.LoginTests" time="1.903"/>
+  <testcase name="gotoHomePage" classname="org.example.tests.LoginTests" time="1.712"/>
+  <testcase name="missingUsername" classname="org.example.tests.LoginTests" time="0.752">
     <failure message="java.lang.AssertionError: expected [Invalid credentials] but found [Required]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid credentials] but found [Required]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -61,44 +61,44 @@
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 60573
+  <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 56739
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677537569.340][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 27, 2023 10:39:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677539647.742][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 27, 2023 11:14:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Feb 27, 2023 10:39:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 27, 2023 11:14:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
-Feb 27, 2023 10:39:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 27, 2023 11:14:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 110.
-Feb 27, 2023 10:39:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Feb 27, 2023 11:14:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 56672
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 62150
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677537577.836][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 27, 2023 10:39:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677539654.333][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 27, 2023 11:14:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Feb 27, 2023 10:39:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 27, 2023 11:14:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
-Feb 27, 2023 10:39:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 27, 2023 11:14:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 110.
-Feb 27, 2023 10:39:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Feb 27, 2023 11:14:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 58420
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 54145
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677537585.364][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 27, 2023 10:39:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677539659.966][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 27, 2023 11:14:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Feb 27, 2023 10:39:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 27, 2023 11:14:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
-Feb 27, 2023 10:39:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 27, 2023 11:14:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 110.
-Feb 27, 2023 10:39:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Feb 27, 2023 11:14:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
 </testsuite>
